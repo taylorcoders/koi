@@ -1,5 +1,5 @@
 import shutil
-imoprt os
+import os
 import sys
 
   print sys.argv[0]
