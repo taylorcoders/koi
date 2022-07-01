@@ -2,7 +2,7 @@
 import shutil,os
  
 
-
+#test
  
 #重命名文件
 shutil.move("\\root\\ql\\scripts\\raw_main_config.sh","\\root\\ql\\scripts\\config.sh")
