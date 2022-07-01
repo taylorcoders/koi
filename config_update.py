@@ -1,10 +1,8 @@
  #导入shutil模块和os模块
 import shutil,os
  
+print os.getcwd() #获取当前工作目录路径
+print os.path.abspath('.') #获取当前文件目录路径
+print os.path.abspath('raw_main_config.sh') #获取当前目录文件下的文件目录路径
 
-#test
-#os.rename('raw_main_config.sh', 'config.sh') # 重命名文件
-#重命名文件
-#shutil.move("\\root\\ql\\scripts\\raw_main_config.sh","\\root\\ql\\scripts\\config.sh")
-#移动文件
-shutil.move(r'.\raw_main_config.sh', r'.\config/config.sh')
+shutil.move("/root/ql/scripts/raw_main_config.sh", "/root/ql/config/config.sh")
